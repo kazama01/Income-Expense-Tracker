@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.IncomeTracker" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!-- For Compose apps, this XML theme primarily sets things like status bar color -->
+        <!-- before Compose takes over. You can reference colors defined in Color.kt -->
+        <!-- if needed, but often standard Material components colors suffice here. -->
+        <!-- Example: <item name="android:statusBarColor">@color/purple_700</item> -->
+         <item name="android:statusBarColor">@android:color/transparent</item>
+         <item name="android:navigationBarColor">@android:color/transparent</item>
+         <item name="android:windowLightStatusBar">true</item> <!-- Adjust based on your primary color darkness -->
+    </style>
+</resources> 
